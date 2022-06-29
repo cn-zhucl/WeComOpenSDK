@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E2BE34145C43F20DA76E6C3DDB1A94 /* Pods-WeComOpenSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D540AD73F2F44E5ED39AA343737F726 /* Pods-WeComOpenSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E8755BB7F4155DD7E1AE4A8CD109ED3 /* WeComOpenSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C9D67D7C633A87CA4BB7BA3114AC8A /* WeComOpenSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254E9AE8810B8CD32A6C6D95C76B5C60 /* libWXWorkApi.a in Sources */ = {isa = PBXBuildFile; fileRef = 365F229F8E63D2E2D8169496D923DDA7 /* libWXWorkApi.a */; };
+		834F42863015B501204747A2ACE6725C /* Pods-WeComOpenSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F75D228D019982B39F1DBC1EA473C3 /* Pods-WeComOpenSDK_Example-dummy.m */; };
+		8DB5FA24ABFA511CC37F7BB78AB348E6 /* WeComOpenSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E743C1AA19B130C2A343BA55A2E6A35 /* WeComOpenSDK-dummy.m */; };
+		93FAA4770F7B525611B113C8AEF935E1 /* WWKApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 70533A18CB2F0A1349D04B85C3DA10A4 /* WWKApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D58746678AB8125C94F2B6472BB91FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D78772C64F2FB01C5484862EEB0AE08A /* WWKApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCBFD7A95395BCFC83C07BE2E8E697F /* WWKApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5B974C3FC2275A8A831B1D63FEB5E68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC5E18E530839174793B2BEE5AD0D132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CAA9ADF94893237099647CDB2A4A508;
+			remoteInfo = WeComOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08F75D228D019982B39F1DBC1EA473C3 /* Pods-WeComOpenSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeComOpenSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		0FDD4C7ECCE136DE5F2F4C818F6F878E /* WeComOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeComOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		170589E0D8E4E3D77A4E610790D86753 /* WeComOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeComOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		190285BD1826A8290EF00D36FEE8FFF9 /* Pods-WeComOpenSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeComOpenSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A2E2C77279B39945A99DFB090A63991 /* Pods-WeComOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeComOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		28AE0758ABDB57D92B6A86D947804EF2 /* WeComOpenSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WeComOpenSDK; path = WeComOpenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A97481C0A20BB9FC22CAED2106B9DD8 /* WeComOpenSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WeComOpenSDK-Info.plist"; sourceTree = "<group>"; };
+		326A689040B1CD300811AD004DDB9950 /* Pods-WeComOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeComOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		365F229F8E63D2E2D8169496D923DDA7 /* libWXWorkApi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWXWorkApi.a; path = WeComOpenSDK/Classes/libWXWorkApi.a; sourceTree = "<group>"; };
+		36C9D67D7C633A87CA4BB7BA3114AC8A /* WeComOpenSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeComOpenSDK-umbrella.h"; sourceTree = "<group>"; };
+		5D5C763EC43E0507A710BAD03F3734D4 /* Pods-WeComOpenSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeComOpenSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6D540AD73F2F44E5ED39AA343737F726 /* Pods-WeComOpenSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeComOpenSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		70533A18CB2F0A1349D04B85C3DA10A4 /* WWKApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWKApi.h; path = WeComOpenSDK/Classes/WWKApi.h; sourceTree = "<group>"; };
+		70875EA25C99A741456C646BA2B31A35 /* Pods-WeComOpenSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WeComOpenSDK_Example"; path = Pods_WeComOpenSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E743C1AA19B130C2A343BA55A2E6A35 /* WeComOpenSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeComOpenSDK-dummy.m"; sourceTree = "<group>"; };
+		8BCBFD7A95395BCFC83C07BE2E8E697F /* WWKApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWKApiObject.h; path = WeComOpenSDK/Classes/WWKApiObject.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF177F75E8E08AA72791D171349611F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B1582256D032EB20B44637FFC895D29C /* WeComOpenSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WeComOpenSDK.modulemap; sourceTree = "<group>"; };
+		B745373996F122A0AFABB70C1ADE7AC2 /* Pods-WeComOpenSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeComOpenSDK_Example.modulemap"; sourceTree = "<group>"; };
+		B75394BADA118526CE19BED5E8C375A9 /* Pods-WeComOpenSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeComOpenSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8AA0AF2D34D78013C82AA8CDDD35C44 /* Pods-WeComOpenSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeComOpenSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		C21507F04AE408D4A8ADC6EE63CC0FB4 /* WeComOpenSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeComOpenSDK-prefix.pch"; sourceTree = "<group>"; };
+		DACF020584EBA0C46753F7D67E2BEFF2 /* WeComOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WeComOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEBDCC6345C2F260276B8D48610D8CC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7937F740F955C164356B7C717DF11906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B974C3FC2275A8A831B1D63FEB5E68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B7D7F21B7057BE0854453C5320FD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58746678AB8125C94F2B6472BB91FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB68CABD69018FBA0437B437FA4BD09 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52F31C0AD2C0C1B80C59B7EF9D9994A2 /* WeComOpenSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4D9EBD196A6A6C14C6D3B9D89D1B37D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50E5B66BFC1BAFE5E8F76CD0980C08C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A966E2D99E5D9FD4D49AE9C964C9FDFC /* Pods-WeComOpenSDK_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52F31C0AD2C0C1B80C59B7EF9D9994A2 /* WeComOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				365F229F8E63D2E2D8169496D923DDA7 /* libWXWorkApi.a */,
+				70533A18CB2F0A1349D04B85C3DA10A4 /* WWKApi.h */,
+				8BCBFD7A95395BCFC83C07BE2E8E697F /* WWKApiObject.h */,
+				4D9EBD196A6A6C14C6D3B9D89D1B37D4 /* Frameworks */,
+				85F7DD2F8C66434D8AD7896EF27AD04A /* Pod */,
+				849B545D6668B0445B7F25EB0D5750C2 /* Support Files */,
+			);
+			name = WeComOpenSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		849B545D6668B0445B7F25EB0D5750C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1582256D032EB20B44637FFC895D29C /* WeComOpenSDK.modulemap */,
+				7E743C1AA19B130C2A343BA55A2E6A35 /* WeComOpenSDK-dummy.m */,
+				2A97481C0A20BB9FC22CAED2106B9DD8 /* WeComOpenSDK-Info.plist */,
+				C21507F04AE408D4A8ADC6EE63CC0FB4 /* WeComOpenSDK-prefix.pch */,
+				36C9D67D7C633A87CA4BB7BA3114AC8A /* WeComOpenSDK-umbrella.h */,
+				0FDD4C7ECCE136DE5F2F4C818F6F878E /* WeComOpenSDK.debug.xcconfig */,
+				170589E0D8E4E3D77A4E610790D86753 /* WeComOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WeComOpenSDK";
+			sourceTree = "<group>";
+		};
+		85F7DD2F8C66434D8AD7896EF27AD04A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEBDCC6345C2F260276B8D48610D8CC0 /* LICENSE */,
+				9DF177F75E8E08AA72791D171349611F /* README.md */,
+				DACF020584EBA0C46753F7D67E2BEFF2 /* WeComOpenSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A966E2D99E5D9FD4D49AE9C964C9FDFC /* Pods-WeComOpenSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B745373996F122A0AFABB70C1ADE7AC2 /* Pods-WeComOpenSDK_Example.modulemap */,
+				190285BD1826A8290EF00D36FEE8FFF9 /* Pods-WeComOpenSDK_Example-acknowledgements.markdown */,
+				B75394BADA118526CE19BED5E8C375A9 /* Pods-WeComOpenSDK_Example-acknowledgements.plist */,
+				08F75D228D019982B39F1DBC1EA473C3 /* Pods-WeComOpenSDK_Example-dummy.m */,
+				5D5C763EC43E0507A710BAD03F3734D4 /* Pods-WeComOpenSDK_Example-frameworks.sh */,
+				B8AA0AF2D34D78013C82AA8CDDD35C44 /* Pods-WeComOpenSDK_Example-Info.plist */,
+				6D540AD73F2F44E5ED39AA343737F726 /* Pods-WeComOpenSDK_Example-umbrella.h */,
+				326A689040B1CD300811AD004DDB9950 /* Pods-WeComOpenSDK_Example.debug.xcconfig */,
+				1A2E2C77279B39945A99DFB090A63991 /* Pods-WeComOpenSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-WeComOpenSDK_Example";
+			path = "Target Support Files/Pods-WeComOpenSDK_Example";
+			sourceTree = "<group>";
+		};
+		B299C9230CBF1696E8B241FB60C8BF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70875EA25C99A741456C646BA2B31A35 /* Pods-WeComOpenSDK_Example */,
+				28AE0758ABDB57D92B6A86D947804EF2 /* WeComOpenSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2AB68CABD69018FBA0437B437FA4BD09 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B299C9230CBF1696E8B241FB60C8BF59 /* Products */,
+				50E5B66BFC1BAFE5E8F76CD0980C08C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51A5A956E7B000D63696BCBC21C57D0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E2BE34145C43F20DA76E6C3DDB1A94 /* Pods-WeComOpenSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7EEF4263AAF058A4D7AAE0D959289D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8755BB7F4155DD7E1AE4A8CD109ED3 /* WeComOpenSDK-umbrella.h in Headers */,
+				93FAA4770F7B525611B113C8AEF935E1 /* WWKApi.h in Headers */,
+				D78772C64F2FB01C5484862EEB0AE08A /* WWKApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FCB5F673F9186C25975A20A22FDEC19 /* Pods-WeComOpenSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC32C880785BBA79837A8892EABEEBF8 /* Build configuration list for PBXNativeTarget "Pods-WeComOpenSDK_Example" */;
+			buildPhases = (
+				51A5A956E7B000D63696BCBC21C57D0E /* Headers */,
+				60F646D52660EB965BB925C60C22B8D7 /* Sources */,
+				A3B7D7F21B7057BE0854453C5320FD74 /* Frameworks */,
+				18EF9DC0201D067CA3C44BC11F4CB8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE59EBE8EBB0B6B99B2B52A7915885FB /* PBXTargetDependency */,
+			);
+			name = "Pods-WeComOpenSDK_Example";
+			productName = Pods_WeComOpenSDK_Example;
+			productReference = 70875EA25C99A741456C646BA2B31A35 /* Pods-WeComOpenSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CAA9ADF94893237099647CDB2A4A508 /* WeComOpenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EEF0E3E927D1A6D8858DC868449A4AA /* Build configuration list for PBXNativeTarget "WeComOpenSDK" */;
+			buildPhases = (
+				AA7EEF4263AAF058A4D7AAE0D959289D /* Headers */,
+				221DD5100FC7708F99F9EF1E2515093C /* Sources */,
+				7937F740F955C164356B7C717DF11906 /* Frameworks */,
+				7221F9889D860B50AB4717B788777EE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeComOpenSDK;
+			productName = WeComOpenSDK;
+			productReference = 28AE0758ABDB57D92B6A86D947804EF2 /* WeComOpenSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B299C9230CBF1696E8B241FB60C8BF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FCB5F673F9186C25975A20A22FDEC19 /* Pods-WeComOpenSDK_Example */,
+				6CAA9ADF94893237099647CDB2A4A508 /* WeComOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EF9DC0201D067CA3C44BC11F4CB8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7221F9889D860B50AB4717B788777EE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221DD5100FC7708F99F9EF1E2515093C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254E9AE8810B8CD32A6C6D95C76B5C60 /* libWXWorkApi.a in Sources */,
+				8DB5FA24ABFA511CC37F7BB78AB348E6 /* WeComOpenSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60F646D52660EB965BB925C60C22B8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834F42863015B501204747A2ACE6725C /* Pods-WeComOpenSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE59EBE8EBB0B6B99B2B52A7915885FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WeComOpenSDK;
+			target = 6CAA9ADF94893237099647CDB2A4A508 /* WeComOpenSDK */;
+			targetProxy = CC5E18E530839174793B2BEE5AD0D132 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42A401C096D284D604D8DC0F86472CF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326A689040B1CD300811AD004DDB9950 /* Pods-WeComOpenSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeComOpenSDK_Example/Pods-WeComOpenSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeComOpenSDK_Example/Pods-WeComOpenSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		886B21A697D1DB566DF70D9F08312ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2E2C77279B39945A99DFB090A63991 /* Pods-WeComOpenSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeComOpenSDK_Example/Pods-WeComOpenSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeComOpenSDK_Example/Pods-WeComOpenSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8FD65BB466F9632220CD48FB9D33115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170589E0D8E4E3D77A4E610790D86753 /* WeComOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeComOpenSDK/WeComOpenSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeComOpenSDK/WeComOpenSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeComOpenSDK/WeComOpenSDK.modulemap";
+				PRODUCT_MODULE_NAME = WeComOpenSDK;
+				PRODUCT_NAME = WeComOpenSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F44A6F8F92DEA1B2C4B26EEE00564810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDD4C7ECCE136DE5F2F4C818F6F878E /* WeComOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeComOpenSDK/WeComOpenSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeComOpenSDK/WeComOpenSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeComOpenSDK/WeComOpenSDK.modulemap";
+				PRODUCT_MODULE_NAME = WeComOpenSDK;
+				PRODUCT_NAME = WeComOpenSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EEF0E3E927D1A6D8858DC868449A4AA /* Build configuration list for PBXNativeTarget "WeComOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44A6F8F92DEA1B2C4B26EEE00564810 /* Debug */,
+				A8FD65BB466F9632220CD48FB9D33115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC32C880785BBA79837A8892EABEEBF8 /* Build configuration list for PBXNativeTarget "Pods-WeComOpenSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A401C096D284D604D8DC0F86472CF2 /* Debug */,
+				886B21A697D1DB566DF70D9F08312ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

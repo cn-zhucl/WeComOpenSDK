@@ -1,0 +1,6 @@
+framework module WeComOpenSDK {
+  umbrella header "WeComOpenSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
