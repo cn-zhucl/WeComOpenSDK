@@ -1,0 +1,16 @@
+PODS:
+  - WeComOpenSDK (1.0.3)
+
+DEPENDENCIES:
+  - WeComOpenSDK (from `../`)
+
+EXTERNAL SOURCES:
+  WeComOpenSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WeComOpenSDK: 5ecec129fb23c3a4be5c1c5a2ec4db92968c0a61
+
+PODFILE CHECKSUM: dde1f28d8ae66b62df611d415d854859218cfacd
+
+COCOAPODS: 1.11.3
